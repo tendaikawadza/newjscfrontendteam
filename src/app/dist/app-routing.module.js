@@ -14,6 +14,7 @@ var user_component_1 = require("./user/user.component");
 var people_component_1 = require("./people/people.component");
 var stock_component_1 = require("./stock/stock.component");
 var approavedrequast_component_1 = require("./approavedrequast/approavedrequast.component");
+var inventoryrequast_component_1 = require("./inventoryrequast/inventoryrequast.component");
 var routes = [
     { path: 'login', component: login_component_1.LoginComponent },
     { path: 'register', component: register_component_1.RegisterComponent },
@@ -21,6 +22,7 @@ var routes = [
     { path: 'user/management', component: user_component_1.UserComponent },
     { path: 'people', component: people_component_1.PeopleComponent },
     { path: 'approavedrequast', component: approavedrequast_component_1.ApproavedrequastComponent },
+    { path: 'inventoryrequast', component: inventoryrequast_component_1.InventoryrequastComponent },
     { path: '', redirectTo: '/login', pathMatch: 'full' }
 ];
 var AppRoutingModule = /** @class */ (function () {
